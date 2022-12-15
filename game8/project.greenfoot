@@ -5,13 +5,29 @@ class.title.image=title.png
 dependency1.from=MyWorld
 dependency1.to=title
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=1056
+=======
+dependency2.from=MyWorld
+dependency2.to=GorillaGorilla
+dependency2.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=718
+editor.fx.0.y=80
+height=885
+<<<<<<< HEAD
+package.numDependencies=2
+package.numTargets=3
+=======
+>>>>>>> f850d05531b486b5ee1a8a16638d4951838322a5
 package.numDependencies=1
 package.numTargets=6
+>>>>>>> 8637f7d4ae5599e5a98f1f99fe888c34dbd662f4
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -71,5 +87,10 @@ target6.y=0
 version=3.0.0
 width=1936
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=0
 yPosition=0
+=======
+xPosition=254
+yPosition=99
+>>>>>>> f850d05531b486b5ee1a8a16638d4951838322a5

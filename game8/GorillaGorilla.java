@@ -15,6 +15,14 @@ public class GorillaGorilla extends Actor
     public void act()
     {
         // Add your action code here.
-        getWorld().addObject( new GorillaGorilla(), 100, 100 );
+        if( Greenfoot.isKeyDown( "right" ) ){
+            setRotation(0);
+            move(5);
+        }
+        
+        if( Greenfoot.isKeyDown( "left" ) ){
+            setRotation(0);
+            move(-5);
+        }
     }
 }
