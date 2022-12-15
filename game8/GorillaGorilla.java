@@ -15,5 +15,6 @@ public class GorillaGorilla extends Actor
     public void act()
     {
         // Add your action code here.
+        getWorld().addObject( new GorillaGorilla(), 100, 100 );
     }
 }
