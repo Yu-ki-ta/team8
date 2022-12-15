@@ -1,19 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class A here.
+ * Write a description of class GorillaGorilla here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class A extends Actor
+public class GorillaGorilla extends Actor
 {
     /**
-     * Act - do whatever the A wants to do. This method is called whenever
+     * Act - do whatever the GorillaGorilla wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void act()
     {
         // Add your action code here.
-    }    
+        getWorld().addObject( new GorillaGorilla(), 100, 100 );
+    }
 }
