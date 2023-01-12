@@ -18,7 +18,14 @@ public class apple extends Actor
         //getWorld().addObject( new apple(), 150, 300);
         //上のプログラムにx（ランダムで決まる数＋定数）秒後にこれの分を実行するという条件を付ければ、
         //ランダムでりんごを発生させることができそう
-        //setRocation(45);
-        move(1);
-    }    
+        //座標appleX（ランダム）にリンゴを生成
+        
+        int appleX = 150;
+        int x = getX();
+        int y = getY();
+        setLocation(x, y + 3);
+        if ( isAtEdge() ){
+            getWorld().removeObject ( this );
+        }
+    }
 }
