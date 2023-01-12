@@ -1,1 +1,1 @@
-https://Yu-ki-ta.github.io.team8/
+https://Yu-ki-ta.github.io/team8/
