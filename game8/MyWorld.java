@@ -19,5 +19,6 @@ public class MyWorld extends World
         super(1200, 700, 1); 
         addObject( new title(), 300, 200 );
         addObject( new GorillaGorilla(), 150, 570);
+        addObject( new apple(), 150, 200);
     }
 }
