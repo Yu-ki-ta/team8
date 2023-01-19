@@ -1,17 +1,11 @@
 #Greenfoot project file
 class.GorillaGorilla.image=Gorilla\ gorilla.png
 class.MyWorld.image=mori.jpg
-class.apple.image=\u308A\u3093\u3054_\u900F\u904E.png
-class.banana.image=\u3070\u306A\u306A_\u900F\u904E.png
-class.bug.image=\u866B_\u900F\u904E.png
-class.goldapple.image=\u91D1\u306E\u308A\u3093\u3054_\u900F\u904E.png
-class.kiwi.image=\u30AD\u30A6\u30A4_\u900F\u904E.png
-class.peach.image=\u3082\u3082_\u900F\u904E.png
-class.strawberry.image=\u3044\u3061\u3054_\u900F\u904E.png
 class.title.image=title.png
 dependency1.from=MyWorld
 dependency1.to=title
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=GorillaGorilla
 dependency10.to=kiwi
 dependency10.type=UsesDependency
@@ -52,6 +46,18 @@ editor.fx.0.y=121
 height=885
 package.numDependencies=12
 package.numTargets=11
+=======
+dependency2.from=MyWorld
+dependency2.to=GorillaGorilla
+dependency2.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=1056
+package.numDependencies=2
+package.numTargets=3
+>>>>>>> c82439ada9fb699d37d320b207b208282de42acd
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -67,12 +73,13 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
-target1.name=banana
+target1.name=GorillaGorilla
 target1.showInterface=false
 target1.type=ClassTarget
-target1.width=80
+target1.width=90
 target1.x=0
 target1.y=0
+<<<<<<< HEAD
 target10.height=50
 target10.name=title
 target10.showInterface=false
@@ -87,20 +94,23 @@ target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
+=======
+>>>>>>> c82439ada9fb699d37d320b207b208282de42acd
 target2.height=50
-target2.name=apple
+target2.name=title
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
-target3.name=kiwi
+target3.name=MyWorld
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
+<<<<<<< HEAD
 target4.height=50
 target4.name=set
 target4.showInterface=false
@@ -143,8 +153,10 @@ target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
+=======
+>>>>>>> c82439ada9fb699d37d320b207b208282de42acd
 version=3.0.0
-width=1463
+width=1936
 world.lastInstantiated=MyWorld
-xPosition=273
-yPosition=95
+xPosition=0
+yPosition=20

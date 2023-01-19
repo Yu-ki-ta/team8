@@ -25,6 +25,7 @@ public class GorillaGorilla extends Actor
             move(-5);
         }
         
+        //ゴリラに当たった果物を消す処理
         Actor actor = getOneIntersectingObject(peach.class );
         Actor actor1 = getOneIntersectingObject(banana.class );
         Actor actor2 = getOneIntersectingObject(bug.class );
