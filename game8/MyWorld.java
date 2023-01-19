@@ -22,7 +22,12 @@ public class MyWorld extends World
         titlelogo = new title();
         addObject( titlelogo, 600, 200 );
         addObject( new GorillaGorilla(), 150, 570 );
-        addObject( new apple(), 150, 200 );
+        int A = 0;
+        int B = 1200;
+        int x = A + (int)(Math.random()*((B-A)+1));
+        addObject( new apple(), x, 150);
+        set setFruit = new set();
+        setFruit.act();
     }
     
     public void act()
@@ -31,6 +36,7 @@ public class MyWorld extends World
             removeObject(titlelogo);
             titlelogo = null;
         }
+        
     }
 }
 
