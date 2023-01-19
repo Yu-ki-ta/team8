@@ -17,20 +17,17 @@ public class MyWorld extends World
     public Actor titlelogo = null;
     
     public MyWorld()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1200, 700, 1); 
+    {
+        super(1200, 700, 1);
         titlelogo = new title();
-        addObject(titlelogo, 600, 200 );
-        addObject( new GorillaGorilla(), 150, 570);
-        
-        
-        
+        addObject( titlelogo, 600, 200 );
+        addObject( new GorillaGorilla(), 150, 570 );
+        addObject( new apple(), 150, 200 );
     }
     
     public void act()
     {
-        if(titlelogo != null){
+        if(titlelogo != null) {
             removeObject(titlelogo);
             titlelogo = null;
         }
