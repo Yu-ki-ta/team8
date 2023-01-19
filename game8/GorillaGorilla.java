@@ -31,7 +31,7 @@ public class GorillaGorilla extends Actor
         Actor actor3 = getOneIntersectingObject(goldapple.class );
         Actor actor4 = getOneIntersectingObject(kiwi.class );
         Actor actor5 = getOneIntersectingObject(strawberry.class );
-        //Actor actor6 = getOneIntersectingObject(apple.class );
+        Actor actor6 = getOneIntersectingObject(apple.class );
         if( actor != null ){
             getWorld().removeObject( actor );
         }  
@@ -50,8 +50,8 @@ public class GorillaGorilla extends Actor
         if( actor5 != null ){
             getWorld().removeObject( actor5 );
         }  
-        //if( actor6 != null ){
-        //    getWorld().removeObject( actor6 );
-        //}  
+        if( actor6 != null ){
+            getWorld().removeObject( actor6 );
+        }  
     }
 }
