@@ -5,41 +5,16 @@ class.title.image=title.png
 dependency1.from=MyWorld
 dependency1.to=title
 dependency1.type=UsesDependency
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 22e9f77d07605cf41740f0758c5243ae6fc16ab7
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< HEAD
-height=935
-=======
-height=1056
-=======
->>>>>>> 43f585652cdc54fdd6d7a3d84a189135e0cc37b8
 dependency2.from=MyWorld
 dependency2.to=GorillaGorilla
 dependency2.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=90
-editor.fx.0.y=115
+editor.fx.0.x=552
+editor.fx.0.y=100
 height=1056
 package.numDependencies=2
 package.numTargets=3
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f850d05531b486b5ee1a8a16638d4951838322a5
->>>>>>> 22e9f77d07605cf41740f0758c5243ae6fc16ab7
-package.numDependencies=1
-package.numTargets=6
->>>>>>> 8637f7d4ae5599e5a98f1f99fe888c34dbd662f4
->>>>>>> 43f585652cdc54fdd6d7a3d84a189135e0cc37b8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -76,21 +51,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1463
-world.lastInstantiated=MyWorld
-xPosition=211
-yPosition=97
-=======
 width=1936
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
-<<<<<<< HEAD
-=======
-=======
-xPosition=254
-yPosition=99
->>>>>>> f850d05531b486b5ee1a8a16638d4951838322a5
->>>>>>> 22e9f77d07605cf41740f0758c5243ae6fc16ab7
->>>>>>> 43f585652cdc54fdd6d7a3d84a189135e0cc37b8

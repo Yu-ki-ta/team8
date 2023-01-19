@@ -13,7 +13,7 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
-    
+    private int timecount = 2000;
     public Actor titlelogo = null;
     
     public MyWorld()
@@ -34,6 +34,13 @@ public class MyWorld extends World
             removeObject(titlelogo);
             titlelogo = null;
         }
+        timecount--;
+        showText( ""+timecount, 50,50 );
+        if(timecount == 0){
+            showText( "TIME OVER", 400,200 );
+            Greenfoot.stop();
+        }
     }
+    
 }
 
