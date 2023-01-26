@@ -14,6 +14,14 @@ public class bug extends Actor
      */
     public void act() 
     {
+        
+        int bugX = 150;
+        int x = getX();
+        int y = getY();
+        setLocation(x, y + 3);
+        if ( isAtEdge() ){
+            getWorld().removeObject ( this );
+        }
         // Add your action code here.
     }    
 }
