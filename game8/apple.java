@@ -21,7 +21,7 @@ public class apple extends Actor
         //getWorld().addObject( new apple(), 150, 200 );
         int x = getX();
         int y = getY();
-        setLocation(x, y + 3);
+        setLocation(x, y + 4);
         if ( isAtEdge() ){
             getWorld().removeObject ( this );
         }

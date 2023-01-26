@@ -25,9 +25,10 @@ public class MyWorld extends World
         int A = 0;
         int B = 1200;
         int x = A + (int)(Math.random()*((B-A)+1));
-        addObject( new apple(), x, 150);
-        set setFruit = new set();
-        setFruit.act();
+        addObject( new peach(), x, 150);
+        addObject( new set(), 0, 0);
+        //set setFruit = new set();
+        //setFruit.act();
     }
     
     public void act()
@@ -36,16 +37,12 @@ public class MyWorld extends World
             removeObject(titlelogo);
             titlelogo = null;
         }
-<<<<<<< HEAD
-        
-=======
         timecount--;
         showText( ""+timecount, 50,50 );
         if(timecount == 0){
             showText( "TIME OVER", 400,200 );
             Greenfoot.stop();
         }
->>>>>>> c82439ada9fb699d37d320b207b208282de42acd
     }
     
 }

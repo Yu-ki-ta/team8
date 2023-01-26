@@ -14,28 +14,29 @@ public class set extends Actor
      */
     int counter = 0;
     
-    public set() {
+    public void set() {
     };
     
     public void act() 
     {
         // Add your action code here.
         counter++;
-        if (counter >= 50) {
+        if (counter >= 120) {
             int A = 0;
             int B = 6;
             int C = A + (int)(Math.random()*((B-A)+1));
             A = 0;
             B = 1200;
             int D = A + (int)(Math.random()*((B-A)+1));
+            
             switch (C)  {
                 case 0: getWorld().addObject( new apple(), D, 150 ); break;
-                case 1: getWorld().addObject( new apple(), D, 150 ); break;
-                case 2: getWorld().addObject( new apple(), D, 150 ); break;
-                case 3: getWorld().addObject( new apple(), D, 150 ); break;
-                case 4: getWorld().addObject( new apple(), D, 150 ); break;
-                case 5: getWorld().addObject( new apple(), D, 150 ); break;
-                case 6: getWorld().addObject( new apple(), D, 150 ); break;
+                case 1: getWorld().addObject( new banana(), D, 150 ); break;
+                case 2: getWorld().addObject( new bug(), D, 150 ); break;
+                case 3: getWorld().addObject( new goldapple(), D, 150 ); break;
+                case 4: getWorld().addObject( new kiwi(), D, 150 ); break;
+                case 5: getWorld().addObject( new peach(), D, 150 ); break;
+                case 6: getWorld().addObject( new strawberry(), D, 150 ); break;
             }
             counter = 0;
         }

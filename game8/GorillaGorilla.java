@@ -17,12 +17,12 @@ public class GorillaGorilla extends Actor
         // Add your action code here.
         if( Greenfoot.isKeyDown( "right" ) ){
             setRotation(0);
-            move(5);
+            move(6);
         }
         
         if( Greenfoot.isKeyDown( "left" ) ){
             setRotation(0);
-            move(-5);
+            move(-6);
         }
         
         //ゴリラに当たった果物を消す処理
