@@ -32,7 +32,7 @@ public class MyWorld extends World
         int A = 0;
         int B = 1200;
         int x = A + (int)(Math.random()*((B-A)+1));
-        addObject( new peach(), x, 150);
+        //addObject( new peach(), x, 150);
         addObject( new set(), 0, 0);
         //set setFruit = new set();
         //setFruit.act();
